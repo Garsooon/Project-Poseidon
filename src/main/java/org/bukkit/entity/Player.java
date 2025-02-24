@@ -338,6 +338,10 @@ public interface Player extends HumanEntity, CommandSender, OfflinePlayer {
      *
      * @param player Player to show
      */
+
+    public boolean isVanished()
+    //Sets framework for hiding vanished players in fundementals from API & J-stats calls
+
     public void showPlayer(Player player);
 
     /**
